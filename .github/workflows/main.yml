@@ -23,7 +23,7 @@ jobs:
      runs-on: ubuntu-latest
      steps:
      - name: send amail
-       uses: dawidd6/action-send-mail@v3
+       uses: wadeww/send-email-action@master
        with:
         server_address: smtp.gmail.com
         server_port: 465
