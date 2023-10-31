@@ -30,8 +30,8 @@ jobs:
         username: ${{secrets.MAIL_USERNAME}}
         password: ${{secrets.MAIL_PASSWORD}}
         subject: Github Actions job result
-        to: onefmdevops@gmail.com,radhia.gharsallah@gmail.com
+        to: onefmdevops@gmail.com,radhia.gharsallah@gmail.com, abcwalid@gmail.com
         from: radhia Gharsallah
-        body: Build job of ${{github.repository}} completed successfully!
+        body: update code to server ${{github.repository}} completed successfully!
         priority: low               
     
